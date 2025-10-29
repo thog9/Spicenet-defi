@@ -65,7 +65,12 @@ TASK_TYPES = {
         "a839aece-cd91-40bd-85ed-37824fa1a268",
         "6d125211-b78f-4165-90fb-22f0452f90ab",
         "43d12400-5bcc-4a5c-b89a-b6b95c94a525",
-        "c44f04cc-540b-42e2-87f3-344e9a6b5c9f"
+        "c44f04cc-540b-42e2-87f3-344e9a6b5c9f",
+        "2b829887-7c7a-4466-9457-64174b1254a6",
+        "72f962ea-326c-420f-b94a-6e1951d02eab",
+        "a839aece-cd91-40bd-85ed-37824fa1a268",
+        "5c25cb4d-8097-4c3d-a982-ed7d6eec9f83"
+"
     ],
     "Create spicy content": [
         "1f8cd410-bedf-41c5-a2c2-fd007dfe9d78",
@@ -423,3 +428,4 @@ async def run_spicenet_script(language: str = 'vi'):
 
 if __name__ == "__main__":
     asyncio.run(run_spicenet('All Tasks', 'vi'))
+
